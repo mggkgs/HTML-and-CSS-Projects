@@ -18,3 +18,21 @@
     <p>This is a paragraph element with blue font color.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic HTML and CSS</title>
+  <style>
+    .blue-text {
+      color: blue;
+    }
+    .centered-text {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="blue-text centered-text">This is my text</h1>
+  <p class="centered-text">This is a paragraph with some text.</p>
+</body>
+</html>
