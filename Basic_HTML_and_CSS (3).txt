@@ -1,0 +1,60 @@
+/* CSS_Table.css */
+
+/* Styling for the table */
+table {
+  background-color: lightgray;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Styling for table cells */
+td, th {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+/* Styling for table header cells */
+th {
+  background-color: gray;
+  color: white;
+}
+
+/* Styling for table rows on hover */
+tr:hover {
+  background-color: yellow;
+}
+
+/* Styling for table links */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Styling for table links on hover */
+a:hover {
+  text-decoration: underline;
+}
+<link rel="stylesheet" href="CSS_Table.css">
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Lists</title>
+  <link rel="stylesheet" href="CSS_Lists.css">
+</head>
+<body>
+  <h1>Ordered List:</h1>
+  <ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ol>
+
+  <h1>Unordered List:</h1>
+  <ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Orange</li>
+  </ul>
+</body>
+</html>
