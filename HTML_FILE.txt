@@ -1,7 +1,0 @@
-<style>
-.my-style {
-  text-decoration: underline;
-  font-weight: bold;
-}
-</style>
-<p class="my-style">This is a paragraph with my custom style.</p>
